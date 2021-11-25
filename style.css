@@ -1,0 +1,192 @@
+.body{
+    background: black;
+    color: white;
+}
+.logo-img{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: auto;
+
+}
+.logo-name{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* .logo-title-area{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+} */
+.div-left-right{
+  display: flex;
+  flex-direction: row;
+  
+
+}
+.left-content{
+    width: 20%;
+    /* border: 2px solid green; */
+    margin: 10px 0px;
+    height: 80vh;
+}
+.right-content{
+    padding: 0 20px;
+    width: 80%;
+    /* border: 2px solid green; */
+    margin: 10px 0px;
+    height: 80vh;
+    overflow-y: auto;
+    background: rgb(15, 15, 15);
+}
+.leftcontent-nav{
+    display: flex;
+    flex-direction: column;
+}
+.leftcontent-home{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
+    transition: .8s;
+
+}
+.leftcontent-home:hover{
+    color: green;
+    background: white;
+    transition: .8s;
+}
+.right-content-h1{
+    text-align: center;
+}
+.right-content-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.right-content-nav-logo{
+    width: 50px ;
+    height: 50px;
+    border-radius: 100px ;
+    border: 2px solid transparent;
+    transition: .8s;
+}
+.right-content-nav-logo:hover{
+    border: 2px solid white;
+    transition: .8s;
+}
+.app-logo{
+    color: white;
+    text-decoration: none;
+    transition: .8s;
+}
+.app-logo:hover{
+    color: green;
+    transition: .8s;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.album-logo{
+    width: 150px;
+    height: 150px;
+}
+.album-details{
+    margin: 10px 20px;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .8s;
+    cursor: pointer;
+}
+.album-details:hover{
+    color: green;
+    transition: .8s;
+}
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    right: 0;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 77%;
+    background: black;
+    margin-left: -20px;
+    visibility: hidden;
+    overflow-y: auto;
+    
+    
+    
+    box-shadow: 2px 2px 4px;
+    padding: 5px 20px;
+    font-size: large;
+    font-weight: bold;
+    
+   
+   
+    
+
+}
+.footer-track{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+#like{
+    cursor: pointer;
+    text-align: center;
+    margin: 0 10px;
+    background: transparent;
+    border: none;
+    font-size: larger;
+}
+.footer-track-img{
+    width: 50px;
+    margin: 0 30px;
+    height: 50px;
+    border-radius: 50px;
+}
+.footer-album-details{
+    display: flex;
+    flex-direction: row;
+    margin: 0 50px;
+}
+.play-forward{
+    
+    margin: 15px 10px;
+}
+.footer-prev{
+    margin: 0 20px;
+    background: none;
+    border: none ;
+    font-size: larger;
+    cursor: pointer;
+
+}
+.footer-pause{
+    margin: 0 20px;
+    background: none;
+    border: none ;
+    font-size: larger;
+    cursor: pointer;
+    
+
+}
+.footer-next{
+    margin: 0 20px;
+    background: none;
+    border: none ;
+    font-size: larger;
+    cursor: pointer;
+
+}
+.footer-album-name{
+    margin-top: 17px;
+}
